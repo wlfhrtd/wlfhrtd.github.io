@@ -48,6 +48,7 @@ ${PADDING}${glow("download_cv")}        > Resume in pdf file
 ${PADDING}${glow("contact")}            > Only email and telepathy currently
 ${PADDING}${glow("credits")}            > let me speak from my heart
 ${PADDING}${glow("all")}                > yolo
+${PADDING}${glow("clear")}              > Clear terminal
 `,
     about: `
 ${PADDING}${red("*** CLASSIFIED INFORMATION - INCINERATE AFTER FINDING ***")}
