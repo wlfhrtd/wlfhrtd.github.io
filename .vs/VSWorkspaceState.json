@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\downloads",
+    "\\js"
   ],
-  "SelectedNode": "\\index.md",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }

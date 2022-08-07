@@ -37,12 +37,12 @@ function getAge(dateString) {
 // content--------------------------------------------------------------------------------------------------------------------------------------
 const messages = {
     repo: `
-${PADDING} https://github.com/wlfhrtd
+${PADDING}https://github.com/wlfhrtd
 `,
     help: `
 ${PADDING}${glow("about")}              > cool story
 ${PADDING}${glow("projects")}           > Projects I've made
-${PADDING}${glow("skills")}             > Main technologies I'm experienced in 
+${PADDING}${glow("skills")}             > Main technologies I'm experienced with
 ${PADDING}${glow("repo")}               > Github link
 ${PADDING}${glow("download_cv")}        > Resume in pdf file
 ${PADDING}${glow("contact")}            > Only email and telepathy currently
@@ -67,37 +67,183 @@ My email can be found by typing ${glow("'contact'")}.
 Also you can check out my CV by typing ${glow("'download_cv'")}.
 `,
     projects: `
-${PADDING} https://github.com/wlfhrtd/DesignPatterns
+${PADDING}${green("****************** C# ******************")}
 
-${PADDING} https://github.com/wlfhrtd/HttpClient-abstraction-demo
+${PADDING}${glow("Design Patterns using .NET")}
 
-${PADDING} https://github.com/wlfhrtd/ASP.NET-Data-Validation
+${PADDING}Link: https://github.com/wlfhrtd/DesignPatterns
 
-${PADDING} https://github.com/wlfhrtd/ASP.NET-MVC-demo
+${PADDING}Description:
+Currently working on it, haven't decided yet - should it be full-blown manual
+or just handbook. At this moment project contains code examples for understanding
+of design patterns.
 
-${PADDING} https://github.com/wlfhrtd/ADO.NET-demo
+${PADDING}${glow(".NET HttpClient demo")}
 
-${PADDING} https://github.com/wlfhrtd/EF-DAL
+${PADDING}Link: https://github.com/wlfhrtd/HttpClient-abstraction-demo
 
-${PADDING} https://github.com/wlfhrtd/AutoLot
+${PADDING}Description:
+Demo project of working with .NET Http Client abstraction consuming API (also included).
 
-${PADDING} https://github.com/wlfhrtd/libxml2_wrapper
+${PADDING}Used:
+AspNetCore.Http.Extensions
+AspNetCore.JsonPatch
+AutoMapper
+Marvin.StreamExtensions
+Moq
+Newtonsoft.Json
+Swashbuckle
+xunit
+NSwagStudio
 
-${PADDING} https://github.com/wlfhrtd/html_tags_parser
+${PADDING}${glow("Data Validation in ASP.NET")}
 
-${PADDING} https://github.com/wlfhrtd/not_project
+${PADDING}Link: https://github.com/wlfhrtd/ASP.NET-Data-Validation
 
-${PADDING} https://github.com/wlfhrtd/large_file_iterator
+${PADDING}Description:
+Data validation approaches available in ASP.NET.
 
-${PADDING} https://github.com/wlfhrtd/assistant
+${PADDING}Used:
+FluentValidation.AspNetCore
+
+${PADDING}${glow("ASP.NET MVC demo")}
+
+${PADDING}Link: https://github.com/wlfhrtd/ASP.NET-MVC-demo
+
+${PADDING}Description:
+Web application based on ASP.NET MVC demonstrating available in framework techniques (not all of course)
+like TagHelpers, Areas, ViewComponents etc.
+
+${PADDING}Used:
+LibraryManager
+LigerShark.WebOptimizer
+Serilog
+SqlClient
+
+${PADDING}${glow("ADO.NET demo")}
+
+${PADDING}Link: https://github.com/wlfhrtd/ADO.NET-demo
+
+${PADDING}Description:
+'Showcase' of ADO.NET data access technology from .NET Framework.
+
+${PADDING}Used:
+Npgsql
+
+${PADDING}${glow("EntityFramework DAL")}
+
+${PADDING}Link: https://github.com/wlfhrtd/EF-DAL
+
+${PADDING}Description:
+Code examples of building Data Access Layer with Entity Framework and .NET.
+"Old style" - uses 'classic' definitions of UnitOfWork and Repository design patterns.
+"New style" - all latest implementations of Repository pattern don't include any kind of UnitOfWork manager
+(at least as independent entity exposed for active usage); UnitOfWork nowadays lives in repository classes
+for internal usage or nowhere at all - persisting actions delegated to repository classes themselves. 
+
+${PADDING}Used:
+EntityFrameworkCore
+
+${PADDING}${glow("AutoLot project")}
+
+${PADDING}Link: https://github.com/wlfhrtd/AutoLot
+
+${PADDING}Description:
+Introduction to ASP.NET provided by Troelsen A. with "Pro C# 9 with .NET 5 (10th edition)".
+
+${PADDING}Used:
+AutoMapper
+LibraryManager
+Serilog
+Swashbuckle
+WebOptimizer
+
+${PADDING}${green("****************** C++ ******************")}
+
+${PADDING}${glow("libxml2 wrapper")}
+
+${PADDING}Link: https://github.com/wlfhrtd/libxml2_wrapper
+
+${PADDING}Description:
+Application to extract data encased between html tags. 
+
+${PADDING}Used:
+libiconv
+libxml2
+
+${PADDING}${glow("HTML data retriever")}
+
+${PADDING}Link: https://github.com/wlfhrtd/html_tags_parser
+
+${PADDING}Description:
+Application to extract data encased between html tags using regular expressions and replace functions.
+
+${PADDING}Used:
+regex
+
+${PADDING}${green("****************** PHP ******************")}
+
+${PADDING}${glow("Sales CMS for some shop")}
+
+${PADDING}Link: https://github.com/wlfhrtd/not_project
+
+${PADDING}Preview link: https://obscure-chamber-99444.herokuapp.com/
+
+${PADDING}Description:
+Based on ordinary trading software but became sandbox for Symfony framework.
+
+${PADDING}Used:
+php 8.1
+symfony 6.1
+doctrine orm 2.12
+
+easyadmin 4
+liip/imagine
+phpoffice/phpspreadsheet
+stof/doctrine-extensions
+symfony/amqp-messenger
+symfony/doctrine-messenger
+symfony/lock
+symfony/messenger
+symfony/notifier
+symfony/telegram-notifier
+symfony/security
+symfony/twig
+symfony/validator
+tetranz/select2entity
+vich/uploader
+doctrine/doctrine-fixtures
+symfony/maker-bundle
+symfony/web-profiler
+
+${PADDING}${glow("File Iterator")}
+
+${PADDING}Link: https://github.com/wlfhrtd/large_file_iterator
+
+${PADDING}Description:
+PHP fgets(), fread(), fgetcsv() functions wrapper
+
+${PADDING}${green("****************** Java Android ******************")}
+
+${PADDING}${glow("Assistant organizer app")}
+
+${PADDING}Link: https://github.com/wlfhrtd/assistant
+
+${PADDING}Description:
+Organizer application using Calendar View and Work Manager.
+
+${PADDING}Used:
+Navigation component
+Room database component
+WorkManager api
 `,
     skills: `
-${PADDING}${green(".NET")}
+${PADDING}${green("C#")} (native, .NET)
 ${PADDING}${green("Java Android")}
-${PADDING}${green("PHP")}
-${PADDING}${green("JavaScript")}
-${PADDING}${green("C++")}
-${PADDING}${green("Web Dev")}
+${PADDING}${green("PHP")} (native, Symfony)
+${PADDING}${green("JavaScript")} (native, jQuery)
+${PADDING}${green("C++")} (native, STL)
+${PADDING}${green("Web Development")}
 ${PADDING}${green("OOP model")}
 `,
     contact: `
