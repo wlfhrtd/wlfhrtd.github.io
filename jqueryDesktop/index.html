@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>wlfhrtd.github.io - Desktop</title>
+  <meta name="description" content="wlfhrtd's homepage" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/desktop.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+  <script>
+    !window.jQuery && document.write(unescape('%3Cscript src="assets/js/jquery.js"%3E%3C/script%3E'));
+    !window.jQuery && document.write(unescape('%3Cscript src="assets/js/jquery.ui.js"%3E%3C/script%3E'));
+  </script>
+  <script src="assets/js/jquery.desktop.js"></script>
+</head>
+<body>
+<div class="abs" id="wrapper">
+  <div class="abs" id="desktop">
+    <!-- desktop icons -->
+    <a class="abs icon" style="left:20px;top:20px;" href="#icon_dock_about">
+      <img src="assets/images/icons/icon_32_txtFile.ico" />
+      About.txt
+    </a>
+    <a class="abs icon" style="left:20px;top:100px;" href="#icon_dock_projects">
+      <img src="assets/images/icons/icon_32_txtFile.ico" />
+      Projects.txt
+    </a>
+    <a class="abs icon" style="left:20px;top:180px;" href="#icon_dock_skills">
+      <img src="assets/images/icons/icon_32_txtFile.ico" />
+      Skills.txt
+    </a>
+    <a class="abs icon" style="left:20px;top:260px;" href="https://github.com/wlfhrtd">
+      <img src="assets/images/icons/icon_32_iepage.ico" />
+      <u>Repository Internet Shortcut</u>
+    </a>
+    <a class="abs icon" style="left:20px;top:340px;" href="#icon_dock_contact">
+      <img src="assets/images/icons/icon_32_txtFile.ico" />
+      Contact.txt
+    </a>
+    <a class="abs icon" style="left:20px;top:420px;" href="#icon_dock_credits">
+      <img src="assets/images/icons/icon_32_txtFile.ico" />
+      Credits.txt
+    </a>
+    <a class="abs icon" style="left:20px;top:500px;" href="../downloads/sergei-sedykh-resume.pdf" download>
+      <img src="assets/images/icons/icon_32_iepage.ico" />
+      <u>Download CV Internet Shortcut</u>
+    </a>
+
+    <div id="About" class="abs window">
+      <div class="abs window_inner">
+        <div class="window_top">
+          <span class="float_left">
+            <img src="assets/images/icons/icon_16_notepad.ico" width="16" height="16" />
+            About.txt - Notepad
+          </span>
+          <span class="float_right">
+            <a href="#" class="window_min"></a>
+            <a href="#" class="window_resize"></a>
+            <a href="#icon_dock_about" class="window_close"></a>
+          </span>
+        </div>
+        <textarea id="aboutTextArea" class="abs window_content" style="resize: none; border: none transparent; outline: none">
+  *** CLASSIFIED INFORMATION - INCINERATE AFTER FINDING ***
+or do not.
+They are watching anyway.
+
+Name is Sergei Sedykh.
+I'm a #GET_AGE year old self-educated Programmer and Web/Software Developer from Kursk, Russia.
+I did science in past - physics to be precise. Conferences, research projects, studies - all of that.
+But failed to invent how to synthesize food out of air and had to start doing real jobs.
+
+Nowadays, I pursue Web and Software development being focused on looking for my first job in this field.
+
+If you're interested I am open to discuss any opportunities.
+My email can be found in Contact.txt.
+Also, you can check out my CV by clicking once on corresponding icon on desktop.
+        </textarea>
+        <div class="abs window_bottom">
+          <!-- not used -->
+        </div>
+      </div>
+      <span class="abs ui-resizable-handle ui-resizable-se"></span>
+    </div>
+    <div id="Projects" class="abs window">
+      <div class="abs window_inner">
+        <div class="window_top">
+          <span class="float_left">
+            <img src="assets/images/icons/icon_16_notepad.ico" width="16" height="16" />
+            Projects.txt - Notepad
+          </span>
+          <span class="float_right">
+            <a href="#" class="window_min"></a>
+            <a href="#" class="window_resize"></a>
+            <a href="#icon_dock_projects" class="window_close"></a>
+          </span>
+        </div>
+        <textarea class="abs window_content" style="resize: none; border: none transparent; outline: none">
+  ****************** C# ******************
+
+  Design Patterns using .NET
+
+  Link: https://github.com/wlfhrtd/DesignPatterns
+
+  Description:
+Currently working on it, haven't decided yet - should it be full-blown manual
+or just handbook. At this moment project contains code examples for understanding
+of design patterns.
+
+  .NET HttpClient demo
+
+  Link: https://github.com/wlfhrtd/HttpClient-abstraction-demo
+
+  Description:
+Demo project of working with .NET Http Client abstraction consuming API (also included).
+
+  Used:
+AspNetCore.Http.Extensions
+AspNetCore.JsonPatch
+AutoMapper
+Marvin.StreamExtensions
+Moq
+Newtonsoft.Json
+Swashbuckle
+xunit
+NSwagStudio
+
+  Data Validation in ASP.NET
+
+  Link: https://github.com/wlfhrtd/ASP.NET-Data-Validation
+
+  Description:
+Data validation approaches available in ASP.NET.
+
+  Used:
+FluentValidation.AspNetCore
+
+  ASP.NET MVC demo
+
+  Link: https://github.com/wlfhrtd/ASP.NET-MVC-demo
+
+  Description:
+Web application based on ASP.NET MVC demonstrating available in framework techniques (not all of course)
+like TagHelpers, Areas, ViewComponents etc.
+
+  Used:
+LibraryManager
+LigerShark.WebOptimizer
+Serilog
+SqlClient
+
+  ADO.NET demo
+
+  Link: https://github.com/wlfhrtd/ADO.NET-demo
+
+  Description:
+'Showcase' of ADO.NET data access technology from .NET Framework.
+
+  Used:
+Npgsql
+
+  EntityFramework DAL
+
+  Link: https://github.com/wlfhrtd/EF-DAL
+
+  Description:
+Code examples of building Data Access Layer with Entity Framework and .NET.
+"Old style" - uses 'classic' definitions of UnitOfWork and Repository design patterns.
+"New style" - all latest implementations of Repository pattern don't include any kind of UnitOfWork manager
+(at least as independent entity exposed for active usage); UnitOfWork nowadays lives in repository classes
+for internal usage or nowhere at all - persisting actions delegated to repository classes themselves.
+
+  Used:
+EntityFrameworkCore
+
+  AutoLot project
+
+  Link: https://github.com/wlfhrtd/AutoLot
+
+  Description:
+Introduction to ASP.NET provided by Troelsen A. with "Pro C# 9 with .NET 5 (10th edition)".
+
+  Used:
+AutoMapper
+LibraryManager
+Serilog
+Swashbuckle
+WebOptimizer
+
+  ****************** C++ ******************
+
+  libxml2 wrapper
+
+  Link: https://github.com/wlfhrtd/libxml2_wrapper
+
+  Description:
+Application to extract data encased between html tags.
+
+  Used:
+libiconv
+libxml2
+
+  HTML data retriever
+
+  Link: https://github.com/wlfhrtd/html_tags_parser
+
+  Description:
+Application to extract data encased between html tags using regular expressions and replace functions.
+
+  Used:
+regex
+
+  ****************** PHP ******************
+
+  Sales CMS for some shop
+
+  Link: https://github.com/wlfhrtd/not_project
+
+  Preview link: https://obscure-chamber-99444.herokuapp.com/
+
+  Description:
+Based on ordinary trading software but became sandbox for Symfony framework.
+
+  Used:
+php 8.1
+symfony 6.1
+doctrine orm 2.12
+
+easyadmin 4
+liip/imagine
+phpoffice/phpspreadsheet
+stof/doctrine-extensions
+symfony/amqp-messenger
+symfony/doctrine-messenger
+symfony/lock
+symfony/messenger
+symfony/notifier
+symfony/telegram-notifier
+symfony/security
+symfony/twig
+symfony/validator
+tetranz/select2entity
+vich/uploader
+doctrine/doctrine-fixtures
+symfony/maker-bundle
+symfony/web-profiler
+
+  File Iterator
+
+  Link: https://github.com/wlfhrtd/large_file_iterator
+
+  Description:
+PHP fgets(), fread(), fgetcsv() functions wrapper
+
+  ****************** Java Android ******************
+
+  Assistant organizer app
+
+  Link: https://github.com/wlfhrtd/assistant
+
+  Description:
+Organizer application using Calendar View and Work Manager.
+
+  Used:
+Navigation component
+Room database component
+WorkManager api
+        </textarea>
+        <div class="abs window_bottom">
+          <!-- not used -->
+        </div>
+      </div>
+      <span class="abs ui-resizable-handle ui-resizable-se"></span>
+    </div>
+    <div id="Skills" class="abs window">
+      <div class="abs window_inner">
+        <div class="window_top">
+          <span class="float_left">
+            <img src="assets/images/icons/icon_16_notepad.ico" width="16" height="16" />
+            Skills.txt - Notepad
+          </span>
+          <span class="float_right">
+            <a href="#" class="window_min"></a>
+            <a href="#" class="window_resize"></a>
+            <a href="#icon_dock_skills" class="window_close"></a>
+          </span>
+        </div>
+        <textarea class="abs window_content" style="resize: none; border: none transparent; outline: none">
+  C# (native, .NET)
+  Java Android
+  PHP (native, Symfony)
+  JavaScript (native, jQuery)
+  C++ (native, STL)
+  Web Development
+  OOP model
+        </textarea>
+        <div class="abs window_bottom">
+          <!-- not used -->
+        </div>
+      </div>
+      <span class="abs ui-resizable-handle ui-resizable-se"></span>
+    </div>
+    <div id="Contact" class="abs window">
+      <div class="abs window_inner">
+        <div class="window_top">
+          <span class="float_left">
+            <img src="assets/images/icons/icon_16_notepad.ico" width="16" height="16" />
+            Contact.txt - Notepad
+          </span>
+          <span class="float_right">
+            <a href="#" class="window_min"></a>
+            <a href="#" class="window_resize"></a>
+            <a href="#icon_dock_contact" class="window_close"></a>
+          </span>
+        </div>
+        <textarea class="abs window_content" style="resize: none; border: none transparent; outline: none">
+strmbld@gmail.com
+        </textarea>
+        <div class="abs window_bottom">
+          <!-- not used -->
+        </div>
+      </div>
+      <span class="abs ui-resizable-handle ui-resizable-se"></span>
+    </div>
+    <div id="Credits" class="abs window">
+      <div class="abs window_inner">
+        <div class="window_top">
+          <span class="float_left">
+            <img src="assets/images/icons/icon_16_notepad.ico" width="16" height="16" />
+            Credits.txt - Notepad
+          </span>
+          <span class="float_right">
+            <a href="#" class="window_min"></a>
+            <a href="#" class="window_resize"></a>
+            <a href="#icon_dock_credits" class="window_close"></a>
+          </span>
+        </div>
+        <textarea class="abs window_content" style="resize: none; border: none transparent; outline: none">
+  Site made by bunch of cats running over keyboard.
+  Using JQuery Terminal Emulator by Jakub Jankiewicz (https://terminal.jcubic.pl).
+  Using jQuery-Desktop by Nathan Smith (https://desktop.sonspring.com).
+        </textarea>
+        <div class="abs window_bottom">
+          <!-- not used -->
+        </div>
+      </div>
+      <span class="abs ui-resizable-handle ui-resizable-se"></span>
+    </div>
+  </div>
+
+<!-- start button -->
+    <p class="" id="start"
+       style="position: absolute; bottom: 0;line-height: 33px;height: 30px;padding-bottom: 5px;z-index: 4">
+      <img id="start_button" src="assets/images/icons/icon_22_desktop.png" width="115" height="38"/>
+    </p>
+
+  <!-- start menu -->
+  <p id="start_menu_wrapper"
+     style="position: absolute; bottom: 0;padding-bottom: 35px;z-index: 3;visibility: hidden">
+    <img id="start_menu" src="assets/images/misc/start_menu.png" width="380" />
+
+    <img id="powerBtn" src="assets/images/misc/powerBtn.png" style="z-index: 4;position: absolute; bottom: 35px; left: 246px">
+  </p>
+
+  <!-- taskbar -->
+  <div class="abs" id="bar_bottom">
+    <span class="float_right" id="clock"></span>
+    <ul id="dock">
+      <li id="icon_dock_about">
+        <a href="#About">
+          <img src="assets/images/icons/icon_16_notepad.ico" width="18" height="18" />
+          About.txt - Notepad
+        </a>
+      </li>
+      <li id="icon_dock_projects">
+        <a href="#Projects">
+          <img src="assets/images/icons/icon_16_notepad.ico" width="18" height="18" />
+          Projects.txt - Notepad
+        </a>
+      </li>
+      <li id="icon_dock_skills">
+        <a href="#Skills">
+          <img src="assets/images/icons/icon_16_notepad.ico" width="18" height="18" />
+          Skills.txt - Notepad
+        </a>
+      </li>
+      <li id="icon_dock_contact">
+        <a href="#Contact">
+          <img src="assets/images/icons/icon_16_notepad.ico" width="18" height="18" />
+          Contact.txt - Notepad
+        </a>
+      </li>
+      <li id="icon_dock_credits">
+        <a href="#Credits">
+          <img src="assets/images/icons/icon_16_notepad.ico" width="18" height="18" />
+          Credits.txt - Notepad
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+</body>
+</html>
