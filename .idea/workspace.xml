@@ -2,61 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97a008a7-e1d9-4a39-a0ab-409a70113b4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/loader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/bios.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/load-win.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/post.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/welcome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/css/desktop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/gui/bar_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/gui/bar_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/gui/bar_top_link.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/gui/trans_black.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/gui/trans_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/gui/window_buttons.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/gui/window_content.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/gui/window_corner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_16_notepad.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_22_desktop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_22_desktop_pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_24_computer_xp.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_32_drive_xp.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_32_ie.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_32_iepage.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_32_notepad.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_32_txtFile.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_48_ie.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_48_iepage.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/icons/icon_48_notepad.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/misc/bsod.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/misc/powerBtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/misc/start_menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/images/misc/wallpaper.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/js/jquery.desktop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/js/jquery.ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/assets/sounds/Windows XP Startup.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jqueryDesktop/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/terminal/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/ProjectSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/wlfhrtd.github.io/FileContentIndex/0d433d42-e785-4935-a579-8882cbd17b60.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/wlfhrtd.github.io/FileContentIndex/53f85c04-0516-4c15-95a2-e02d06d3c406.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/wlfhrtd.github.io/FileContentIndex/852355a5-7418-41c5-88f6-7d8ed3437e8f.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/wlfhrtd.github.io/FileContentIndex/edff07db-d4da-439d-b424-3a2d2d0c95f4.vsidx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/wlfhrtd.github.io/FileContentIndex/read.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/wlfhrtd.github.io/config/applicationhost.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/wlfhrtd.github.io/v16/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/wlfhrtd.github.io/v17/.suo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/terminal/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/terminal/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/terminal/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/loader.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,15 +24,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\wlfhrtd.github.io\downloads" />
@@ -100,7 +47,9 @@
       <option name="presentableId" value="Default" />
       <updated>1660143484036</updated>
       <workItem from="1660143486788" duration="143000" />
-      <workItem from="1660143643456" duration="1592000" />
+      <workItem from="1660143643456" duration="2354000" />
+      <workItem from="1660150386203" duration="445000" />
+      <workItem from="1660328207587" duration="630000" />
     </task>
     <servers />
   </component>
