@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="97a008a7-e1d9-4a39-a0ab-409a70113b4d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/sergei-sedykh-resume.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/downloads/sergei-sedykh-resume.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jqueryDesktop/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jqueryDesktop/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminal/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/terminal/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,16 +26,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/dev/wlfhrtd.github.io/downloads",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\dev\wlfhrtd.github.io\downloads" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\wlfhrtd.github.io\downloads" />
     </key>
@@ -49,7 +55,8 @@
       <workItem from="1660143486788" duration="143000" />
       <workItem from="1660143643456" duration="2354000" />
       <workItem from="1660150386203" duration="445000" />
-      <workItem from="1660328207587" duration="630000" />
+      <workItem from="1660328207587" duration="1969000" />
+      <workItem from="1660480629416" duration="772000" />
     </task>
     <servers />
   </component>

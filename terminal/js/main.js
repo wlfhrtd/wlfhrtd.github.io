@@ -77,6 +77,7 @@ ${PADDING}Description:
 Currently working on it, haven't decided yet - should it be full-blown manual
 or just handbook. At this moment project contains code examples for understanding
 of design patterns.
+Used in another project.
 
 ${PADDING}${glow(".NET HttpClient demo")}
 
@@ -130,20 +131,6 @@ ${PADDING}Description:
 ${PADDING}Used:
 Npgsql
 
-${PADDING}${glow("EntityFramework DAL")}
-
-${PADDING}Link: https://github.com/wlfhrtd/EF-DAL
-
-${PADDING}Description:
-Code examples of building Data Access Layer with Entity Framework and .NET.
-"Old style" - uses 'classic' definitions of UnitOfWork and Repository design patterns.
-"New style" - all latest implementations of Repository pattern don't include any kind of UnitOfWork manager
-(at least as independent entity exposed for active usage); UnitOfWork nowadays lives in repository classes
-for internal usage or nowhere at all - persisting actions delegated to repository classes themselves. 
-
-${PADDING}Used:
-EntityFrameworkCore
-
 ${PADDING}${glow("AutoLot project")}
 
 ${PADDING}Link: https://github.com/wlfhrtd/AutoLot
@@ -153,6 +140,7 @@ Introduction to ASP.NET provided by Troelsen A. with "Pro C# 9 with .NET 5 (10th
 
 ${PADDING}Used:
 AutoMapper
+EntityFrameworkCore
 LibraryManager
 Serilog
 Swashbuckle
