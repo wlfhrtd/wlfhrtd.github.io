@@ -148,6 +148,27 @@ WebOptimizer
 
 ${PADDING}${green("****************** C++ ******************")}
 
+${PADDING}${glow("SimplePasswordManager")}
+
+${PADDING}Link: https://github.com/wlfhrtd/SimplePasswordManager
+
+${PADDING}Description:
+Password manager application based on Master Password concept. 
+
+${PADDING}Used:
+Qt Quick(QML) framework
+Qt-AES - https://github.com/bricke/Qt-AES
+
+${PADDING}${glow("TranslateBar")}
+
+${PADDING}Link: https://github.com/wlfhrtd/TranslateBar
+
+${PADDING}Description:
+Desktop-oriented widget application for convenient access to Google Translate service. 
+
+${PADDING}Used:
+Qt Quick(QML) framework
+
 ${PADDING}${glow("libxml2 wrapper")}
 
 ${PADDING}Link: https://github.com/wlfhrtd/libxml2_wrapper
@@ -226,11 +247,11 @@ Room database component
 WorkManager api
 `,
     skills: `
-${PADDING}${green("C#")} (native, .NET)
+${PADDING}${green("C#")} (.NET)
 ${PADDING}${green("Java Android")}
 ${PADDING}${green("PHP")} (native, Symfony)
 ${PADDING}${green("JavaScript")} (native, jQuery)
-${PADDING}${green("C++")} (native, STL)
+${PADDING}${green("C++")} (native, STL, Qt Core, Qt Widgets, Qt Quick)
 ${PADDING}${green("Web Development")}
 ${PADDING}${green("OOP model")}
 `,

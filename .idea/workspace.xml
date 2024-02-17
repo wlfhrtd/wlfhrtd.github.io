@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="97a008a7-e1d9-4a39-a0ab-409a70113b4d" name="Changes" comment="" />
+    <list default="true" id="97a008a7-e1d9-4a39-a0ab-409a70113b4d" name="Changes" comment="small skills&amp;projects updates" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +19,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2DAYiBKqQ7B3M5ihKJdnkyhr83c" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,8 +32,16 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/dev/wlfhrtd.github.io/downloads",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/dev/wlfhrtd.github.io",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.stylelint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.stylelint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -38,6 +52,14 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\dev\wlfhrtd.github.io\downloads" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-e293885f7bc4-JavaScript-PS-241.11761.30" />
+        <option value="bundled-php-predefined-ba97393d7c68-e59465f6e3c1-com.jetbrains.php.sharedIndexes-PS-241.11761.30" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -52,6 +74,7 @@
       <workItem from="1660150386203" duration="445000" />
       <workItem from="1660328207587" duration="1969000" />
       <workItem from="1660480629416" duration="814000" />
+      <workItem from="1708182868670" duration="1832000" />
     </task>
     <servers />
   </component>
